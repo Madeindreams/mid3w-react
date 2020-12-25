@@ -1,0 +1,98 @@
+
+
+.footer{
+    border-top:1px solid #ba277f;
+}
+
+
+
+.tag{
+    position:relative;
+    top:-25px;
+    height:1px;
+    color:#ffffff;
+    text-align:left;
+    margin-bottom: 3px;
+    margin-left: 5px;
+}
+.social{
+    
+float:right;
+margin:5px;
+clear:both;
+width:400px;
+
+}
+.social-logo{
+    height:50px;
+    display:inline-block;
+    margin: 5px;  
+}
+.donate{
+    float:right;
+    clear:both;
+    margin:5px;
+    width:400px;
+
+}
+.crypto{
+    height:50px;
+
+    display:inline-block;
+    margin: 5px;   
+    cursor: pointer; 
+}
+.donatemsg{
+    clear:both;
+    float:right;
+    width:400px;  
+    text-align: center;
+}
+
+.crypto .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: relative;
+    z-index: 1;
+    bottom: 100%;
+    left: 0px;
+    margin-left: -145px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .crypto .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  .crypto:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    
+  }
+  .ssl-logo{
+      position:absolute;
+      left:0px;
+    display : inline-block;
+      bottom:0px;
+      width:400px;
+
+  }
+  .ssl-img {
+      height:42px;
+      width:106px;
+  }
